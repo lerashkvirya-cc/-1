@@ -2,20 +2,20 @@
 using namespace std;
 int main() {
 	setlocale(0, "");
-	cout << "Ââåäèòå ÷èñëî ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ ";
 	int number;
 	cin >> number;
 	int a = 1;
 	while (a < 9) {
-		cout << "ðåøèòå ïðèìåð: " << number << "x" << a << endl;
+		cout << "Ñ€ÐµÑˆÐ¸Ñ‚Ðµ Ð¿Ñ€Ð¸Ð¼ÐµÑ€: " << number << "x" << a << endl;
 		int answ;
 		cin >> answ;
 		if (answ == number * a) {
-			cout << "îòâåò: " << answ << endl;
-			cout << "ïðèìåð ðåøåí ïðàâèëüíî!" << endl;
+			cout << "Ð¾Ñ‚Ð²ÐµÑ‚: " << answ << endl;
+			cout << "Ð¿Ñ€Ð¸Ð¼ÐµÑ€ Ñ€ÐµÑˆÐµÐ½ Ð¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾!" << endl;
 			a = a + 1;
 		} else {
-			cout << "îøèáêà, ðåøåíèå íåâåðíî.";
+			cout << "Ð¾ÑˆÐ¸Ð±ÐºÐ°, Ñ€ÐµÑˆÐµÐ½Ð¸Ðµ Ð½ÐµÐ²ÐµÑ€Ð½Ð¾.";
 			return 0;
 		}
 	}
