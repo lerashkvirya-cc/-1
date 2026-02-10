@@ -4,29 +4,29 @@ int main(){
 	setlocale(0, "");
 	double num1, num2;
 	char op;
-	cout << "âûáåðèòå îïåðàöèþ: ";
+	cout << "Ð²Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸ÑŽ: ";
 	cin >> op;
-	cout << "ââåäèòå äâà ÷èñëà: ";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: ";
 	cin >> num1 >> num2;
 	if (op == '+') {
-		cout << "ðåçóëüòàò: " << num1 << "+" << num2 << "=" << num1 + num2;
+		cout << "Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << num1 << "+" << num2 << "=" << num1 + num2;
 	}
 	else if (op == '-') {
-		cout << "ðåçóëüòàò" << num1 << "-" << num2 << "=" << num1 - num2;
+		cout << "Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚" << num1 << "-" << num2 << "=" << num1 - num2;
 	}
 	else if (op == '*') {
-		cout << "ðåçóëüòàò" << num1 << "*" << num2 << "=" << num1 * num2;
+		cout << "Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚" << num1 << "*" << num2 << "=" << num1 * num2;
 	}
 	else if (op == '/') {
-		if (num2 == 0)cout << "äåëèòü íà 0 íåëüçÿ.";
-		else cout << "ðåçóëüòàò" << num1 << "/" << num2 << "=" << num1 / num2;
+		if (num2 == 0)cout << "Ð´ÐµÐ»Ð¸Ñ‚ÑŒ Ð½Ð° 0 Ð½ÐµÐ»ÑŒÐ·Ñ.";
+		else cout << "Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚" << num1 << "/" << num2 << "=" << num1 / num2;
 	}
 	else if (op == '/') {
-		if ((int)num2 == 0)cout << "äåëèòü íà 0 íåëüçÿ.";
-		else cout << "ðåçóëüòàò" << (int)num1 << "%" << (int)num2 << "=" << ((int)num1 % (int)num2);
+		if ((int)num2 == 0)cout << "Ð´ÐµÐ»Ð¸Ñ‚ÑŒ Ð½Ð° 0 Ð½ÐµÐ»ÑŒÐ·Ñ.";
+		else cout << "Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚" << (int)num1 << "%" << (int)num2 << "=" << ((int)num1 % (int)num2);
 	}
 	else {
-		cout << "íåâåðíàÿ îïåðàöèÿ.";
+		cout << "Ð½ÐµÐ²ÐµÑ€Ð½Ð°Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ñ.";
 	}
 	return 0;
 	int _; cin >> _;
